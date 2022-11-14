@@ -7,7 +7,7 @@ $('#menu').click(function(){
     $('.line2').toggleClass('lineRo_45')
     $('.d1li').removeClass('d1li_open')
 });
-$('.open_btn').click(function(){
+$('.opBtn').click(function(){
     $(this).toggleClass('opBtnDeg')
     $(this).parents().siblings().removeClass('d1li_open')
     $(this).parents().toggleClass('d1li_open')
