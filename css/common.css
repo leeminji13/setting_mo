@@ -8,6 +8,9 @@ html,p,span,h1,h2,li{
 /* 공통클래스 */
 .dnone{display: none;}
 .opa0{opacity: 0;}
+.ofh{overflow: hidden;}
+.tr_y{transform: translateY(100%);}
+.tr_y100{transform: translateY(-100%);}
 
 .pt150{padding-top: 150px;}
 .pt140{padding-top: 140px;}
