@@ -12,14 +12,50 @@
     
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
     <link rel="stylesheet" href="./css/style.min.css">
 
-    <script
-    src="https://code.jquery.com/jquery-2.2.4.min.js"
-    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-    crossorigin="anonymous"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/swiper.min.js"></script>
 </head>
 <body>
+    <div id="popup" class="popup popup_img on">
+        <div class="popWrap">
+            <div id="pop_swiper" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="expop pop1"></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="expop pop2"></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="expop pop3"></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="expop pop4"></div>
+                  </div>
+                </div>
+                <div class="swp_btn">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="btn_wrap">
+                <!-- 오늘 하루 보지 않기 --->
+                <div class="btn_today_close">
+                    <p><input type="checkbox"></p>
+                    <span>오늘 하루 열지 않음</span>
+                </div>
+                <!-- 그냥 닫기 --->
+                <div class="btn_close">
+                    <p>닫기</p>
+                    <img src="img/content/pop_close.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div id="quick" class="quick">
             <div class="line_wrap">
@@ -35,7 +71,7 @@
                 </ul>
             </div>
         </div>
-        <div class="header">
+        <div id="header" class="header">
             <div class="hdWrap">
                 <h1 class="logo">
                     <a href="">
@@ -121,13 +157,13 @@
                 </ul>
             </div>
         </div>
-        <div class="sec2"></div>
-        <div class="sec3"></div>
-        <div class="sec4"></div>
-        <div class="sec5"></div>
-        <div class="sec6"></div>
-        <div class="sec7"></div>
-        <footer>
+        <div id="sec1" class="sec1"></div>
+        <div id="sec2" class="sec2"></div>
+        <div id="sec3" class="sec3"></div>
+        <div id="sec4" class="sec4"></div>
+        <div id="sec5" class="sec5"></div>
+        <div id="sec6" class="sec6"></div>
+        <footer id="foot">
             <div class="foot_txt">
                 <div class="gs">
                     <p class="pb18 gsSub">GS건설</p>
@@ -151,5 +187,6 @@
     <script src="./js/header.js"></script>
     <script src="./js/motion.js"></script>
     <script src="./js/swiper.js"></script>
+    <script src="./js/pop.js"></script>
 </body>
 </html>
