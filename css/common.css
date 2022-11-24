@@ -11,6 +11,12 @@ html,p,span,h1,h2,li{
 .ofh{overflow: hidden;}
 .tr_y{transform: translateY(100%);}
 .tr_y100{transform: translateY(-100%);}
+.df{display: flex;}
+.dfset{display: flex; align-items: center; justify-content: center;}
+.alcen{align-items: center;}
+.juscen{justify-content: center;}
+.jusbe{justify-content: space-between;}
+.txtcen{text-align: center;}
 
 .pt150{padding-top: 150px;}
 .pt140{padding-top: 140px;}
